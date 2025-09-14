@@ -56,8 +56,7 @@ public class Aerolinea
     /**
      * Construye una nueva aerolínea con un nombre e inicializa todas las contenedoras con estructuras vacías
      */
-    public Aerolinea( )
-    {
+    public Aerolinea(){
         aviones = new LinkedList<Avion>( );
         rutas = new HashMap<String, Ruta>( );
         vuelos = new LinkedList<Vuelo>( );
